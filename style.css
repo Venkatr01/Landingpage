@@ -4,7 +4,6 @@
 
 .main-text{
     font-size: 48px;
-    /* font: 48px extra-bold #F9FAF8; */
     color: #F9FAF8;
     font-weight:900;
 }
@@ -32,11 +31,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-/* .subtext{
-    display: flex;
-    gap: 5px;
-    justify-content: right;
-} */
+
 .header, .links{
     display: flex;
     align-items: center;
@@ -65,11 +60,7 @@ body{
 .main-text{
     margin-bottom: 0;
 }
-/* .header-image{
-    width: 400px;
-    height: 200px;
-    margin-left: 0;
-} */
+
 .header-image{
     flex: 0.4;
 }
@@ -79,4 +70,45 @@ body{
     padding: 0;
     border-radius: 10px;
     border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
 }
+
+/* Cards Section */
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    display: flex;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    margin-top: 0;
+    gap: 50px;
+    text-align: center;
+}
+
+.whole-card{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    margin-top: 40px;
+}
+.text{
+    color: rgb(82, 75, 75, 0.8);
+    font-size: 1.2em;
+}
+
