@@ -112,3 +112,24 @@ body{
     font-size: 1.2em;
 }
 
+/* Quote section */
+.quote-container{
+    height: 400px;
+    background-color: #E5E7EB;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    opacity:0.7;
+}
+.writer{
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-end;
+    margin-left: 450px;
+}
+
